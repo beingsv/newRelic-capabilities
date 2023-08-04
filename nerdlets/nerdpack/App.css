@@ -1,0 +1,53 @@
+.demoPage {
+  display: block;
+  justify-content: center; 
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.demoPage .heading h1 {
+  text-align: center;
+}
+
+.demoPage .productList {
+  width: 100%;
+  margin-top: 60px;
+  padding-left: 15px;
+}
+
+.demoPage .productList .cardy{
+  border-radius: 1.5rem 0rem;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card1, 
+.card2,
+.card3,
+.card4 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 3.8fr;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 10px 20px ;
+}
+
+.card1, 
+.card2,
+.card3,
+.card4 .container {
+  text-align: left;
+}
+
+.demoPage .productList .container h3{
+  color: darkblue;
+}
+
+.demoPage .productList .container .submit {
+  display: grid;
+  grid-template-columns: 0.6fr 2.5fr;
+  align-items: center;
+  gap: 0.5rem;
+}
+
